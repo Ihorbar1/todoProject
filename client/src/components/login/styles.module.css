@@ -1,0 +1,89 @@
+.modal {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 700px;
+   height: 700px;
+   background-color: #fff;
+   border: 1px solid #000;
+   outline: none;
+   overflow: none;
+}
+
+.modal p {
+   margin: 20px 0;
+}
+
+.modalInput {
+   width: 500px;
+   padding: 10px;
+   resize: none;
+   background-color: #dadada;
+   border: none;
+   border-radius: 10px;
+   font-size: 18px;
+   outline: none;
+}
+
+.modalInput:focus {
+   background-color: #bbbcff;
+}
+
+
+.modalInputText {
+   margin-top: 40px;
+}
+
+.modalButton {
+   box-sizing: border-box;
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 30px;
+   height: 30px;
+   background-color: #fff;
+   border-left: 1px solid #000;
+   border-bottom: 1px solid #000;
+   cursor: pointer;
+}
+
+.modalButtonSend {
+   box-sizing: border-box;
+   width: 150px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   background-color: #757dc9;
+   border: 3px solid #757dc9;
+   cursor: pointer;
+   transition: all 0.4s;
+}
+
+
+.button {
+   width: 100px;
+   height: 30px;
+   background-color: #dadada;
+   border: none;
+   cursor: pointer;
+}
+
+.userName {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 30px;
+   background-color: #dadada;
+
+}

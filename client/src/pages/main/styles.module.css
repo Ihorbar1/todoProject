@@ -1,0 +1,18 @@
+.header {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 1400px;
+   height: 100px;
+   margin: 0 auto;
+   padding: 0 20px;
+   background-color: #61b647;
+}
+
+.logo {
+   font-size: 30px;
+}
+
+.buttonWrap {
+   display: flex;
+}

@@ -1,0 +1,112 @@
+.wrap {
+   width: 1000px;
+   margin: 0 auto;
+}
+
+.addWrap {
+   background-color: #4c73c7;
+}
+
+.item {
+   display: flex;
+   justify-content: space-between;
+}
+
+.item .buttonWrap {
+   display: flex;
+}
+
+.item button {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 50px;
+   height: 20px;
+}
+
+.todoH2 {
+   margin-top: 20px;
+}
+
+.createBtn {
+   width: 100px;
+   height: 30px;
+   margin: 10px 20px 30px 0;
+   background-color: #dadada;
+   border: none;
+   cursor: pointer;
+}
+
+
+
+.modal {
+   position: relative;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   width: 700px;
+   height: 700px;
+   background-color: #fff;
+   border: 1px solid #000;
+   outline: none;
+   overflow: none;
+}
+
+.modal p {
+   margin: 20px 0;
+}
+
+.modalInput {
+   width: 500px;
+   padding: 10px;
+   resize: none;
+   background-color: #dadada;
+   border: none;
+   border-radius: 10px;
+   font-size: 18px;
+   outline: none;
+}
+
+.modalInput:focus {
+   background-color: #bbbcff;
+}
+
+
+.modalInputText {
+   margin-top: 40px;
+
+}
+
+.modalButton {
+   box-sizing: border-box;
+   position: absolute;
+   top: 0;
+   right: 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 30px;
+   height: 30px;
+   background-color: #fff;
+   border-left: 1px solid #000;
+   border-bottom: 1px solid #000;
+   cursor: pointer;
+}
+
+.modalButtonSend {
+   box-sizing: border-box;
+   width: 150px;
+   height: 50px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 20px;
+   background-color: #757dc9;
+   border: 3px solid #757dc9;
+   cursor: pointer;
+   transition: all 0.4s;
+}
